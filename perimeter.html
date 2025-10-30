@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+
+var choice = prompt(
+     "Welcome to Perimeter Calculator.\nPlease enter your choice:\n1. Perimeter of Rectangle\n2. Perimeter of Triangle\n 3. Perimeter of Square \n4. Perimeter of Parallelogram"
+ );
+
+ if (choice == '1') { 
+
+    var length = prompt('Enter the length');
+    var breadth = prompt ('Enter the breadth');
+
+    var result = (Number(length) + Number(breadth)) *2 ; 
+    alert('The perimeter of rectangle is :' + result);
+
+ }
+
+ if (choice == '2') {
+
+    var side  = prompt('Enter the length of side');
+
+    var result = Number(side) + Number(side) + Number(side) ; 
+    alert('The perimeter of triangle is :' + result);
+ }
+
+ if (choice == '3') {
+
+    var side  = prompt('Enter the length of side');
+    
+    var result = Number(side) * 4; 
+    alert('The area of Square is :' + result);
+ }
+
+
+ if (choice == '4') {
+
+var length = prompt('Enter the length');
+    var breadth = prompt ('Enter the breadth');
+
+    var result = (Number(length) + Number(breadth)) *2 ; 
+    alert('The perimeter of Parallelogram is :' + result);
+ }
+
+</script>
+</html>
